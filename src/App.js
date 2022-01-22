@@ -1,5 +1,7 @@
+import Header from './Header';
+
 function App() {
-	return <h1>React Snippets</h1>;
+	return <Header />;
 }
 
 export default App;
