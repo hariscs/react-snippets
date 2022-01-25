@@ -1,0 +1,26 @@
+.tabs {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	width: 60%;
+	gap: 2em;
+}
+
+.tabsList {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	gap: 2rem;
+}
+
+.tabHead,
+.tabBody {
+	border: 1px solid springgreen;
+	padding: 1em;
+	cursor: pointer;
+}
+
+.active {
+	border: 1px solid hotpink;
+}
