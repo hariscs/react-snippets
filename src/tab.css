@@ -1,32 +1,3 @@
 body {
-	background: gray;
-	color: white;
-}
-
-.tabs {
-	display: flex;
-	flex-direction: column;
-	align-items: center;
-	justify-content: center;
-	width: 60%;
-	gap: 2em;
-}
-
-.tabsList {
-	display: flex;
-	align-items: center;
-	justify-content: center;
-	gap: 2rem;
-}
-.tabHead {
-	border: 1px solid springgreen;
-}
-.tabHead,
-.tabBody {
-	padding: 1em;
-	cursor: pointer;
-}
-
-.active {
-	border: 1px solid hotpink;
+	padding: 2rem;
 }
